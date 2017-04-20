@@ -19,7 +19,7 @@ Av klassdiagrammet kan du utläsa att parameterar och returtyper ofta är av int
 
 Metoden `GetWordFrequncy` ska ha returtypen `IDictionary<string, int>`. Ett ”_dictionary_” består av två värden, en nyckel (_key_) och ett värde (_value_). Nyckeln kopplas till värdet, ungefär på samma sätt som ett index i en array kopplas till ett värde. Det finns en konkret klass som heter `Dictionary`, en samling som är osorterad, som implementerar interfacet `IDictionary`.
 
-Ett `Dictionary`-objekt skapar du med `IDictionary<string, int> dic = new Dictionay<string, int>();` och redan här kan du använda en variabel av typen `IDictionary` för att referera till det skapade objektet. All funktionalitet som du behöver använda definieras av interfacet `IDictionary`, och implementeras av klassen `Dictionary`.
+Ett `Dictionary`-objekt skapar du med `IDictionary<string, int> dic = new Dictionary<string, int>();` och redan här kan du använda en variabel av typen `IDictionary` för att referera till det skapade objektet. All funktionalitet som du behöver använda definieras av interfacet `IDictionary`, och implementeras av klassen `Dictionary`.
 Interfacet `IDictionary` definierar bl.a. metoderna `ContainsKey()`, `Add()` och `TryGetValue`, som självklart klassen `Dictionary` implementerar. Dessa metoder använder du för att räkna hur många gånger ett ord förekommer och du får då en något låååångsam algoritm.
 
 ##### Något lååångsam algoritm
